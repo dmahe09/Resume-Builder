@@ -35,7 +35,7 @@ This project is built using:
 
 ## 📂 Clone the Repository
 - **Open your terminal**: Clone the repository from GitHub: git clone <repository-url>
-- **Navigate into the project directory**: cd JobGenius
+- **Navigate into the project directory**: cd ResumeBuilder
 
 ## ⚙️ Install Dependencies
 - **Make sure you have Node.js (v16+) and npm or yarn installed on your machine.**
