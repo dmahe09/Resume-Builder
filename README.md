@@ -1,5 +1,7 @@
 📋 About This Project
+
 This Resume Builder repository showcases a modern, full-stack application designed to streamline the resume creation process. Built with industry-leading technologies, this platform delivers an intuitive user experience for crafting professional resumes efficiently.
+
 ⚡ Key Capabilities
 
 🔐 Secure User Authentication - Integrated Google Sign-In via Kinde
@@ -32,7 +34,7 @@ Vercel Postgres: Serverless SQL database solution
 Repository Setup
 
 Launch your terminal and clone the project: git clone <repository-url>
-Change to the project folder: cd ResumeBuilder
+Change to the project folder: cd JobGenius
 
 📦 Dependency Installation
 
