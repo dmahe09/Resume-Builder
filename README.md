@@ -1,56 +1,57 @@
-# Resume Builder
+📋 About This Project
+This Resume Builder repository showcases a modern, full-stack application designed to streamline the resume creation process. Built with industry-leading technologies, this platform delivers an intuitive user experience for crafting professional resumes efficiently.
+⚡ Key Capabilities
 
-## 📌 Project Overview
+🔐 Secure User Authentication - Integrated Google Sign-In via Kinde
+➕ Resume Creation - Build new resumes from scratch
+✏️ Resume Management - Edit and update existing resumes
+🎨 Custom Theming - Multiple color schemes for personalization
+📸 Visual Previews - Generate resume thumbnails
+🗨️ Link Sharing - Share resumes with custom URLs
+🔎 Trash Management - Search and recover deleted resumes
+📡 Live Updates - Real-time collaborative editing
+🔗 Preview Functionality - View resumes before finalizing
+👨‍💻 PDF Export - Download professional PDF versions
+🌐 Modern Web Framework - Powered by Next.js 14
+🎨 Responsive Design - Crafted with TailwindCSS and Shadcn UI
+🪝 Efficient APIs - Built on Hono with Tanstack React Query
+💾 Robust Database - Vercel PostgreSQL with Drizzle ORM
+🚀 Cloud Deployment - Hosted on Vercel platform
 
-Welcome to the **Resume Builder** repository! This project leverages cutting-edge tools and frameworks to create a dynamic and efficient resume-building platform. The Resume Builder provides a seamless experience, making resume creation straightforward and effective.
+🛠️ Technology Stack
+The application utilizes these modern technologies:
 
-## 🌟 Features
+Next.js: High-performance React framework with SEO optimization
+Hono: Minimal and fast web framework for API development
+Drizzle ORM: Type-safe SQL database toolkit
+Tailwind CSS: Utility-first CSS framework for rapid styling
+React Query: Powerful data synchronization for React applications
+Vercel Postgres: Serverless SQL database solution
 
-- 🔐 **Authentication with Kinde** - Google Sign-In
-- ➕ **Creating Resumes**
-- ✏️ **Editing Resumes**
-- 🎨 **Resume Theme Colors**
-- 📸 **Resume Thumbnail**
-- 🗨️ **Shareable Resume Link**
-- 🔎 **Search Trash Resume**
-- 📡 **Real-Time Editing**
-- 🔗 **Preview Mode**
-- 👨‍💻 **Download Resume to PDF Format**
-- 🌐 **Built with Next.js 14**
-- 🎨 **Styled with TailwindCSS and Shadcn UI**
-- 🪝 **Hono API & Tanstack React Query**
-- 💾 **Vercel PostgreSQL & Drizzle ORM**
-- 🚀 **Deployed on Vercel**
+📥 Getting Started
+Repository Setup
 
-## 🚀 Tools & Technologies
+Launch your terminal and clone the project: git clone <repository-url>
+Change to the project folder: cd ResumeBuilder
 
-This project is built using:
+📦 Dependency Installation
 
-- **Next.js**: For the fast, SEO-friendly frontend.
-- **Hono**: Lightweight framework for building backend APIs.
-- **Drizzle ORM**: SQL ORM for easy database management.
-- **Tailwind CSS**: Rapid, responsive styling.
-- **React Query**: For efficient data fetching and caching.
-- **Vercel Postgres**: Reliable, scalable database solution.
+Ensure Node.js (version 16 or higher) and npm/yarn are installed
+Install all required packages: npm install or yarn install
 
-## 📂 Clone the Repository
-- **Open your terminal**: Clone the repository from GitHub: git clone <repository-url>
-- **Navigate into the project directory**: cd ResumeBuilder
+🔐 Environment Configuration
 
-## ⚙️ Install Dependencies
-- **Make sure you have Node.js (v16+) and npm or yarn installed on your machine.**
-- **Install project dependencies**: npm install or yarn install
+Generate environment file: touch .env.local
+Configure necessary variables (reference .env.example for structure):
 
-## 🔑 Set Up Environment Variables
-- **Create a .env.local file in the root of the project**: touch .env.local
-- **Add the required environment variables (refer to .env.example for guidance)**: DATABASE_URL=<your-database-url>
+DATABASE_URL=<your-database-url>
 KIND_AUTH_URL=<your-kinde-auth-url>
 API_BASE_URL=<your-hono-api-url>
+🗃️ Database Configuration
 
-## 🗄️ Database Setup
-- **Set up the database**: Ensure Vercel PostgreSQL is configured and running.
-- **Use Drizzle ORM to run migrations**: npm run db:migrate or yarn db:migrate
+Initialize database connection: Verify Vercel PostgreSQL setup
+Execute database migrations: npm run db:migrate or yarn db:migrate
 
-## 🏃 Run the Project
-- **Start the development server**: npm run dev or with Yarn:
+🚀 Launch Application
 
+Initialize development environment: npm run dev or yarn dev
